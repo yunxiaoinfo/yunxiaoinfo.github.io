@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "越剧·吕派花旦·李云霄"
+title:  "越剧·吕派花旦"
 categories: [ Jekyll ]
 image: assets/images/demo1.jpg
 ---
