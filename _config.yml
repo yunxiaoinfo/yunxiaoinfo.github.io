@@ -3,9 +3,9 @@ name: '李云霄'
 description: '越剧·吕派花旦'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-baseurl: '/mundana-theme-jekyll'
-disqus: 'demowebsite'
-email: 'wowthemesnet@gmail.com'
+baseurl: ''
+disqus: 'Website for Yunxiao LI'
+email: 'liyunxiaofans@163.com'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 
 include: ["_pages"]
@@ -23,7 +23,7 @@ authors:
       name:           Sal
       site:           https://www.wowthemes.net
       avatar:         /assets/images/avatar1.jpg
-      bio:            "Hi, I am Sal, the author of Mundana, the theme you're currently previewing. I hope you like it!"
+      bio:            "Hi, I am Sal, the author of the page you're currently previewing. I hope you like it!"
       email:          wowthemesnet@gmail.com
       twitter:        https://twitter.com/wowthemesnet
 
