@@ -43,23 +43,23 @@ layout: default
         
         
         <!-- Share -->
-		<div class="col-lg-2 pr-4 mb-4 col-md-12">
+<!-- 		<div class="col-lg-2 pr-4 mb-4 col-md-12">
 			<div class="sticky-top sticky-top-offset text-center">
 				<div class="text-muted">
 					Share this
 				</div>
 				<div class="share d-inline-block">
 					<!-- AddToAny BEGIN -->
-					<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<!-- 					<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
 						<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
 						<a class="a2a_button_facebook"></a>
 						<a class="a2a_button_twitter"></a>
 					</div>
-					<script async src="https://static.addtoany.com/menu/page.js"></script>
+					<script async src="https://static.addtoany.com/menu/page.js"></script> -->
 					<!-- AddToAny END -->
-				</div>
+<!-- 				</div>
 			</div>
-		</div>
+		</div> --> -->
         
         
 		<div class="col-md-12 col-lg-8">
@@ -79,7 +79,7 @@ layout: default
 			</div>
  
             <!-- Mailchimp Subscribe Form -->
-            {% if site.mailchimp-list %}
+<!--             {% if site.mailchimp-list %}
 			<div class="border p-5 bg-lightblue">
 				<div class="row justify-content-between">
 					<div class="col-md-6 mb-2 mb-md-0">
@@ -102,28 +102,28 @@ layout: default
 					</div>
 				</div>
 			</div>
-            {% endif %}
+            {% endif %} -->
             
             
              <!-- Author Box -->
-                {% if page.author %}				
+<!--                 {% if page.author %}				
 				<div class="row mt-5">
 					<div class="col-md-2 align-self-center">
                          {% if author.avatar %}
                         <img class="rounded-circle" src="{{site.baseurl}}/{{author.avatar}}" alt="{{author.name}}" width="90"/>
                         {% endif %} 
 					</div>
-					<div class="col-md-10">		
+					<div class="col-md-10">	
                         <h5 class="font-weight-bold">Written by {{ author.name }} {% if author.twitter %}<span><a target="_blank" href="{{ author.twitter }}" class="btn btn-outline-success btn-sm btn-round ml-2">Follow</a></span>{% endif %}</h5>
 						{{ author.bio }}					
 					</div>
 				</div>				
-                {% endif %}
+                {% endif %} -->
             
             <!-- Comments -->
-            {% if page.comments != false %}
+<!--             {% if page.comments != false %}
                 {% include comments.html %}
-            {% endif %}
+            {% endif %} -->
             
 		</div>
         
