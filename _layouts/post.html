@@ -19,7 +19,7 @@ layout: default
 <!--                         {% if author.avatar %}
                         <img class="rounded-circle" src="{{site.baseurl}}/{{author.avatar}}" alt="{{author.name}}" width="70"/>
                         {% endif %} -->
-						<small class="ml-3"> By {{ author.name }}
+						<small class="ml-3"> Written by {{ author.name }}
                             <span class="text-muted d-block mt-1">{{ page.date | date: '%b %d, %Y' }} · {% include meta-read-time.html %}</span>
 						</small>
 					</div>
@@ -70,13 +70,13 @@ layout: default
 			</article>
 			
 			<!-- Tags -->
-			<div class="mb-4">
+<!-- 			<div class="mb-4">
 				<span class="taglist">
 				{% for tag in page.tags %}
 				  <a class="sscroll btn btn-light btn-sm font-weight-bold" href="{{site.baseurl}}/tags.html#{{ tag | downcase }}">{{ tag | downcase }}</a>
 				{% endfor %}
 				</span>
-			</div>
+			</div> -->
  
             <!-- Mailchimp Subscribe Form -->
 <!--             {% if site.mailchimp-list %}
@@ -118,7 +118,7 @@ layout: default
 						{{ author.bio }}					
 					</div>
 				</div>				
-                {% endif %} -->
+                {% endif %}  -->
             
             <!-- Comments -->
 <!--             {% if page.comments != false %}
