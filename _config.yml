@@ -19,21 +19,21 @@ plugins:
   - jekyll-seo-tag
   
 authors:
-    sal:
-      name:           Sal
-      site:           https://www.wowthemes.net
-      avatar:         assets/images/avatar1.jpg
-      bio:            "Hi, I am Sal, the author of the page you're currently previewing. I hope you like it!"
-      email:          wowthemesnet@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
+    first:
+      name:           仰卧起坐
+      # site:           https://www.wowthemes.net
+      avatar:         assets/images/author_img/avatar1.jpg
+      bio:            "嗨你好呀，网页正在建设中，请耐心等待..."
+      # email:          wowthemesnet@gmail.com
+      # twitter:        https://twitter.com/wowthemesnet
 
-    jane:
-      name:           Jane
-      site:           https://www.wowthemes.net
-      avatar:         assets/images/avatar2.jpg
-      bio:            "Blogger, fashionista, love to explore new ideas and write on my morning coffee!"
-      email:          fakemail@gmail.com
-      twitter:        https://twitter.com/wowthemesnet
+    second:
+      name:           待定
+      # site:           https://www.wowthemes.net
+      avatar:         assets/images/author_img/avatar2.jpg
+      bio:            "期待你的加入！"
+      # email:          fakemail@gmail.com
+      # twitter:        https://twitter.com/wowthemesnet
  
 # Defaults
 defaults:
@@ -44,7 +44,7 @@ defaults:
     values:
       layout: post
       author: sal
-      avatar: /assets/images/avatar1.jpg
+      avatar: assets/images/avatar1.jpg
       
   # all pages
   - scope:
