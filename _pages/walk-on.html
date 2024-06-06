@@ -1,15 +1,15 @@
 ---
-title: "Excerpt"
+title: "Walk-on"
 layout: default
-permalink: "/excerpt.html"
+permalink: "/walk-on.html"
 ---
 
 <div class="container">
   <div class="row justify-content-center">
       <div class="col-md-12">
-      <h4 class="font-weight-bold spanborder text-capitalize">折子戏</h4>
+      <h4 class="font-weight-bold spanborder text-capitalize">龙套角色</h4>
           
-      {% for post in site.categories.excerpt %}
+      {% for post in site.categories.walk-on %}
       {% if post.title != null %}
         {% if group == null or group == post.group %}
           {% include main-loop-card.html %}
