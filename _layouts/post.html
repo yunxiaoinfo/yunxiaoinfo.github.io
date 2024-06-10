@@ -10,16 +10,16 @@ layout: default
 					<p class="text-uppercase font-weight-bold">
                         <span class="catlist">
 						{% for category in page.categories %}
-							<a class="sscroll text-danger" href="{{site.baseurl}}/{{ category | downcase }}.html">{{ category | downcase }}</a><span class="sep">, </span>
-							<!-- {% if {{ category | downcase }} == "starring" %}
+							<!-- <a class="sscroll text-danger" href="{{site.baseurl}}/{{ category | downcase }}.html">{{ category | downcase }}</a><span class="sep">, </span> -->
+							{% if "starring" in {{ category | downcase }} %}
                           		<a class="sscroll text-danger" href="{{site.baseurl}}/starring.html">主演大戏</a><span class="sep">, </span>
 							{% endif %}
-							{% if {{ category | downcase }} == "excerpt" %}
+							{% if "excerpt" in {{ category | downcase }} %}
                           		<a class="sscroll text-danger" href="{{site.baseurl}}/excerpt.html">折子戏</a><span class="sep">, </span>
 							{% endif %}
-							{% if {{ category | downcase }} == "walk-on" %}
+							{% if "walk-on" in {{ category | downcase }} %}
                           		<a class="sscroll text-danger" href="{{site.baseurl}}/walk-on.html">龙套角色</a><span class="sep">, </span>
-							{% endif %} -->
+							{% endif %}
                         {% endfor %}
                         </span>
 					</p>
