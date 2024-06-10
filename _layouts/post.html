@@ -11,13 +11,13 @@ layout: default
                         <span class="catlist">
 						{% for category in page.categories %}
 							<!-- <a class="sscroll text-danger" href="{{site.baseurl}}/{{ category | downcase }}.html">{{ category | downcase }}</a><span class="sep">, </span> -->
-							{% if "starring" in “{{ category | downcase }}” %}
+							{% if "starring" in category|downcase %}
                           		<a class="sscroll text-danger" href="{{site.baseurl}}/starring.html">主演大戏</a><span class="sep">, </span>
 							{% endif %}
-							{% if "excerpt" in {{ category | downcase }} %}
+							{% if "excerpt" in category|downcase %}
                           		<a class="sscroll text-danger" href="{{site.baseurl}}/excerpt.html">折子戏</a><span class="sep">, </span>
 							{% endif %}
-							{% if "walk-on" in {{ category | downcase }} %}
+							{% if "walk-on" in category|downcase %}
                           		<a class="sscroll text-danger" href="{{site.baseurl}}/walk-on.html">龙套角色</a><span class="sep">, </span>
 							{% endif %}
                         {% endfor %}
