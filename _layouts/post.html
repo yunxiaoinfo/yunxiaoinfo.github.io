@@ -11,7 +11,7 @@ layout: default
                         <span class="catlist">
 						{% for category in page.categories %}
 							<!-- <a class="sscroll text-danger" href="{{site.baseurl}}/{{ category | downcase }}.html">{{ category | downcase }}</a><span class="sep">, </span> -->
-							{% if "starring" in {{ category | downcase }} %}
+							{% if "starring" in “{{ category | downcase }}” %}
                           		<a class="sscroll text-danger" href="{{site.baseurl}}/starring.html">主演大戏</a><span class="sep">, </span>
 							{% endif %}
 							{% if "excerpt" in {{ category | downcase }} %}
