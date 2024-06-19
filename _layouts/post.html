@@ -10,23 +10,17 @@ layout: default
 					<p class="text-uppercase font-weight-bold">
                         <span class="catlist">
 						{% for category in page.categories %}
-							<a class="text-capitalize text-muted smoothscroll" href="{{site.baseurl}}/{{ category | downcase }}.html">{{ category }}</a><span class="sep">, </span>
-							<!-- {% if "starring" in category %}
-                          		<a class="sscroll text-danger" href="{{site.baseurl}}/starring.html">主演大戏</a><span class="sep">, </span>
-							{% endif %}
-							{% if "excerpt" in category %}
-                          		<a class="sscroll text-danger" href="{{site.baseurl}}/excerpt.html">折子戏</a><span class="sep">, </span>
-							{% endif %}
-							{% if "walk-on" in category %}
-                          		<a class="sscroll text-danger" href="{{site.baseurl}}/walk-on.html">龙套角色</a><span class="sep">, </span>
-							{% endif %} -->
+                          <a class="sscroll text-danger" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category | downcase }}</a><span class="sep">, </span>
                         {% endfor %}
                         </span>
 					</p>
 					<h1 class="display-4 mb-4 article-headline">{{ page.title }}</h1>
 					<div class="d-flex align-items-center">
-						<small class="ml-0"> 撰文｜ {{ page.author }}
-                            <span class="text-muted d-block mt-1 utf-8">{{ page.date | date: '%Y年%-m月%d日' }} · {% include meta-read-time.html %}</span>
+                        {% if author.avatar %}
+                        <img class="rounded-circle" src="{{site.baseurl}}/{{author.avatar}}" alt="{{author.name}}" width="70"/>
+                        {% endif %}
+						<small class="ml-3"> {{ author.name }} <span><a target="_blank" href="{{ author.twitter }}" class="btn btn-outline-success btn-sm btn-round ml-1">Follow</a></span>
+                            <span class="text-muted d-block mt-1">{{ page.date | date: '%b %d, %Y' }} · {% include meta-read-time.html %}</span>
 						</small>
 					</div>
 				</div>
@@ -39,7 +33,6 @@ layout: default
 		</div>
 	</div>
 </div>
-
 
 
 
