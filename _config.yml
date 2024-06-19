@@ -21,7 +21,7 @@ plugins:
 authors:
     first:
       name:           仰卧起坐
-      # site:           https://www.wowthemes.net
+      weibo:          https://weibo.com/u/7914470830
       avatar:         assets/images/author_img/avatar1.jpg
       bio:            "嗨你好呀，网页正在建设中，请耐心等待..."
       # email:          wowthemesnet@gmail.com
@@ -29,11 +29,9 @@ authors:
 
     # second:
     #   name:           待定
-    #   # site:           https://www.wowthemes.net
+    #   # weibo:           https://www.wowthemes.net
     #   avatar:         assets/images/author_img/avatar2.jpg
     #   bio:            "期待你的加入！"
-    #   # email:          fakemail@gmail.com
-    #   # twitter:        https://twitter.com/wowthemesnet
  
 # Defaults
 defaults:
