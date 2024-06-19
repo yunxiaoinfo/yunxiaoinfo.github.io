@@ -11,13 +11,13 @@ layout: default
                         <span class="catlist">
 						{% for category in page.categories %}
 						  {% if "starring" in {{ category | downcase }} %}
-						  	<a class="sscroll text-danger" href="{{site.baseurl}}/{{ category | downcase }}.html">主演大戏</a><span class="sep">, </span>
+						  	<a class="text-danger" href="{{site.baseurl}}/{{ category | downcase }}.html">主演大戏</a><span class="sep">, </span>
 						  {% elif "excerpt" in {{ category | downcase }} %}
-						  	<a class="sscroll text-danger" href="{{site.baseurl}}/{{ category | downcase }}.html">折子戏</a><span class="sep">, </span>
+						  	<a class="text-danger" href="{{site.baseurl}}/{{ category | downcase }}.html">折子戏</a><span class="sep">, </span>
 						  {% elif "walk-on" in {{ category | downcase }} %}
-						  	<a class="sscroll text-danger" href="{{site.baseurl}}/{{ category | downcase }}.html">龙套角色</a><span class="sep">, </span>
+						  	<a class="text-danger" href="{{site.baseurl}}/{{ category | downcase }}.html">龙套角色</a><span class="sep">, </span>
 						  {% else %}
-						    <a class="sscroll text-danger" href="{{site.baseurl}}/{{ category | downcase }}.html">{{ category | downcase }}</a><span class="sep">, </span>
+						    <a class="text-danger" href="{{site.baseurl}}/{{ category | downcase }}.html">{{ category | downcase }}</a><span class="sep">, </span>
 						  {% endif %}
                           <!-- <a class="sscroll text-danger" href="{{site.baseurl}}/{{ category | downcase }}.html">{{ category | downcase }}</a><span class="sep">, </span> -->
                         {% endfor %}
