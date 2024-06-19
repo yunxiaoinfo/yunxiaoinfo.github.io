@@ -10,7 +10,7 @@ layout: default
 					<p class="font-weight-bold">
                         <span class="catlist">
 						{% for category in page.categories %}
-						  {% if "starring" == category %}
+						  {% if "starring" == category|downcase %}
 						  	<a class="text-danger" href="{{site.baseurl}}/{{ category | downcase }}.html">主演大戏</a><span class="sep">, </span>
 						  {% elsif "excerpt" == category %}
 						  	<a class="text-danger" href="{{site.baseurl}}/{{ category | downcase }}.html">折子戏</a><span class="sep">, </span>
@@ -19,7 +19,6 @@ layout: default
 						  {% else %}
 						    <a class="text-danger" href="{{site.baseurl}}/{{ category | downcase }}.html">{{ category | downcase }}</a><span class="sep">, </span>
 						  {% endif %}
-                          <!-- <a class="sscroll text-danger" href="{{site.baseurl}}/{{ category | downcase }}.html">{{ category | downcase }}</a><span class="sep">, </span> -->
                         {% endfor %}
                         </span>
 					</p>
