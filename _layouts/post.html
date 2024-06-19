@@ -17,7 +17,7 @@ layout: default
 						  {% elsif "walk-on" == category|downcase %}
 						  	<a class="text-danger" href="{{site.baseurl}}/{{ category | downcase }}.html">龙套角色</a><span class="sep">, </span>
 						  {% else %}
-						    <a class="text-danger" href="{{site.baseurl}}/{{ category | downcase }}.html">{{ category | downcase }}</a><span class="sep">, </span>
+						    <a class="text-danger" href="{{site.baseurl}}/{{ category | downcase }}.html">{{ category | upcase }}</a><span class="sep">, </span>
 						  {% endif %}
                         {% endfor %}
                         </span>
