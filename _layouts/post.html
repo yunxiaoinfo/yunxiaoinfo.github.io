@@ -12,9 +12,9 @@ layout: default
 						{% for category in page.categories %}
 						  {% if "starring" == category|downcase %}
 						  	<a class="text-danger" href="{{site.baseurl}}/{{ category | downcase }}.html">主演大戏</a><span class="sep">, </span>
-						  {% elsif "excerpt" == category %}
+						  {% elsif "excerpt" == category|downcase %}
 						  	<a class="text-danger" href="{{site.baseurl}}/{{ category | downcase }}.html">折子戏</a><span class="sep">, </span>
-						  {% elsif "walk-on" == category %}
+						  {% elsif "walk-on" == category|downcase %}
 						  	<a class="text-danger" href="{{site.baseurl}}/{{ category | downcase }}.html">龙套角色</a><span class="sep">, </span>
 						  {% else %}
 						    <a class="text-danger" href="{{site.baseurl}}/{{ category | downcase }}.html">{{ category | downcase }}</a><span class="sep">, </span>
