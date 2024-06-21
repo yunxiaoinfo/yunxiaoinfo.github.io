@@ -10,7 +10,8 @@ permalink: "/about.html"
     {% for author in site.authors %}
         <div class="col-lg-4 mb-4">
             <div class="p-4 border rounded">
-            <!-- <div class="row"> -->
+            <div class="row">
+            <div class="col-md-12">
             <div class="col-md-4 mb-4 mb-md-0"><img alt="{{ author[1].name }}" src="{{site.baseurl}}/{{ author[1].avatar }}" class="rounded-circle" height="60" width="60"></div>
             <div class="col-md-8">
             <a target="_blank" href="{{ author[1].weibo }}">
@@ -18,8 +19,9 @@ permalink: "/about.html"
             <small class="d-inline-block mt-1 mb-2 font-weight-normal">({{author[1].duty}})</small>
             </a>
             </div>
+            </div>
             <div class="excerpt">{{ author[1].bio }}</div>
-            <!-- </div> -->
+            </div>
             </div>
         </div>
     {% endfor %}
