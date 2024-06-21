@@ -12,11 +12,11 @@ permalink: "/about.html"
             <div class="p-4 border rounded">
             <!-- <div class="row"> -->
             <div class="d-flex align-items-center">
-            <img alt="{{ author[1].name }}" src="{{site.baseurl}}/{{ author[1].avatar }}" class="rounded-circle" height="60" width="60">
+            <img alt="{{ author[1].name }}" src="{{site.baseurl}}/{{ author[1].avatar }}" class="rounded-circle" height="80" width="80">
             <!-- <div class="col-md-8"> -->
-            <a target="_blank" href="{{ author[1].weibo }}">
+            <a class="ml-3" target="_blank" href="{{ author[1].weibo }}">
             <h5 class="text-dark mt-0 mb-0"> {{ author[1].name }} </h5>
-            <small class="d-inline-block mt-1 mb-2 font-weight-normal">({{author[1].duty}})</small>
+            <small class="d-inline-block mt-1 font-weight-normal">({{author[1].duty}})</small>
             </a>
             </div>
             <div class="excerpt">{{ author[1].bio }}</div>
