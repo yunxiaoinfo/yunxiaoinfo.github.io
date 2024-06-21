@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Markdown Example"
-author: jane
+title:  "《陈三两》 饰 陈三两/李素萍"
+author: 仰卧起坐
 categories: [starring]
 image: assets/images/6.jpg
 tags: featured
