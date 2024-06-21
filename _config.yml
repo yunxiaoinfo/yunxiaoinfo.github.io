@@ -32,6 +32,13 @@ authors:
       avatar:         assets/images/author_img/avatar2.jpg
       duty:           美工和设计
       bio:            "期待你的加入！"
+    
+    third:
+      name:           招募中
+      weibo:          https://weibo.com/u/5535273154
+      avatar:         assets/images/author_img/avatar3.jpg
+      duty:           文字和编辑
+      bio:            "期待你的加入！"
  
 # Defaults
 defaults:
