@@ -23,13 +23,15 @@ authors:
       name:           仰卧起坐
       weibo:          https://weibo.com/u/7914470830
       avatar:         assets/images/author_img/avatar1.jpg
+      duty:           网页搭建和维护
       bio:            "嗨你好呀，网页正在建设中，请耐心等待..."
 
-    # second:
-    #   name:           待定
-    #   # weibo:           https://www.wowthemes.net
-    #   avatar:         assets/images/author_img/avatar2.jpg
-    #   bio:            "期待你的加入！"
+    second:
+      name:           叫我向丞丞_Milk
+      weibo:          https://weibo.com/u/5535273154
+      avatar:         assets/images/author_img/avatar2.jpg
+      duty:           美工和设计
+      bio:            "期待你的加入！"
  
 # Defaults
 defaults:
