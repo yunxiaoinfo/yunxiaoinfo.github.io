@@ -1048,14 +1048,11 @@ pre {
 
 .table {
   width: 100%;
-  text-align: center;
-  margin-bottom: 1rem;
   background-color: transparent; }
   .table th,
   .table td {
     padding: 0.75rem;
     vertical-align: top;
-    text-align: center;
     border-bottom: 1px solid #dee2e6; }
   .table thead th {
     vertical-align: bottom;
