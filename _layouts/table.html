@@ -6,12 +6,26 @@ layout: default
     <div class="row justify-content-center">
         <div class="col-md-12">
         <h4 class="font-weight-bold spanborder text-danger">演出记录汇总：{{page.title}}</h4>
-        
-        <div class="page-content">
-          {{ content }}
+
+        <div class="table-holder scroll-table">
+          <table class="table-primary fancy table">
+            <thead>
+              <tr>
+                <th style="width: 20%;" class="active">演出日期</th>
+                <th style="width: 20%;">剧目</th>
+                <th style="width: 40%;">演出地点或活动</th>
+                <th style="width: 20%;">其他</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <div class="page-content">
+                {{ content }}
+              </div>
+            </tbody>
+
+          </table>
         </div>
-        </div>
-        
-      
+        </div>      
     </div>
 </div>
