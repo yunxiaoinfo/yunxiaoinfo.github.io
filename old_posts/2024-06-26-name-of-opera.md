@@ -1,20 +1,31 @@
 ---
-layout: post
-title:  "Could we reinvent the charm of old cities"
-author: jane
-categories: [starring]
-image: assets/images/home.jpg
-tags: [starring]
+layout: post        注：网页布局类型，不要改
+title:  "《陈三两》"  注：剧名
+role: 陈三两/李素萍      注：角色名
+author: 张三                注：撰文人的id
+editor: 李四                注：编辑的id
+photo: 王五                  注：图源的id
+designer: 赵六             注：美工设计的id (没有的话，可以删掉此项，上同)
+categories: [starring]  注：类别，主演大戏填[starring]，折子戏填[excerpt]
+image: assets/images/home.jpg  注：banner图的相对路径，由仰卧起坐填写
 ---
 
-Bucharest’s history alternated periods of development and decline from the early settlements in antiquity until its consolidation as the national capital of Romania late in the 19th century. First mentioned as the “Citadel of București” in 1459, it became the residence of the famous Wallachian prince Vlad III the Impaler.
+注1：上面是属性信息，下面是文稿正文。
 
-#### Early 18th century woodcut of Bucharest
+注2：正文分两个主要部分【剧情简介】和【人物简介+点评】
 
-The Ottomans appointed Greek administrators (Phanariotes) to run the town from the 18th century. A short-lived revolt initiated by Tudor Vladimirescu in 1821 led to the end of the rule of Constantinople Greeks in Bucharest.[19]
+注3：文稿用作【入门科普】，需做到：低·阅读门槛(kan)，高·可读性。阅读时长2分钟左右(避免“太长不看”)，整篇600-1000字，读者看完内容能对剧情发展和人物内核有一定了解。
 
-The Old Princely Court (Curtea Veche) was erected by Mircea Ciobanul in the mid-16th century. Under subsequent rulers, Bucharest was established as the summer residence of the royal court. During the years to come, it competed with Târgoviște on the status of capital city after an increase in the importance of southern Muntenia brought about by the demands of the suzerain power – the Ottoman Empire.
+剧情简介之前可以写一些简短的引言介绍，例如出处：该剧根据越剧《花中君子》改编，是越剧吕派代表作。
 
-Bucharest finally became the permanent location of the Wallachian court after 1698 (starting with the reign of Constantin Brâncoveanu).
+#### 剧情简介 (注：这里用了4级标题的语法-4个井号，下同)
+注：平铺直叙就好，叙述需清晰简洁。对于剧情尾声和结果，可以适当留白。简介内容可以多方参考网上的资料，并精简优化文字叙述。
 
-Partly destroyed by natural disasters and rebuilt several times during the following 200 years, and hit by Caragea’s plague in 1813–14, the city was wrested from Ottoman control and occupied at several intervals by the Habsburg Monarchy (1716, 1737, 1789) and Imperial Russia (three times between 1768 and 1806). It was placed under Russian administration between 1828 and the Crimean War, with an interlude during the Bucharest-centred 1848 Wallachian revolution. Later, an Austrian garrison took possession after the Russian departure (remaining in the city until March 1857). On 23 March 1847, a fire consumed about 2,000 buildings, destroying a third of the city.
+简介例子（212字）：明朝，李素萍之父官凭被人冒领，弥留之际，为儿女留下“洁身永自爱”的遗言。李素萍卖身葬父，并将卖身银赠予胞弟李凤鸣读书成才。误落风尘的李素萍，矢志不做娼，因其所做诗文每篇售银三两，故被鸨母改名为“陈三两”。富春院中，三两可怜陈奎遭遇，收其为义弟，七年助读，并送其赶考。卖身十年后，陈三两被鸨母卖给富商张子春为妾，三两不从，张子春贿通新任知府，对其严刑拷打，逼其“从良”。然而这贪官竟是三两失散多年的胞弟李凤鸣，公堂上姐弟相认……
+
+#### 陈三两 ｜ 高洁傲岸不染尘
+这部分为【人物简介+点评】，可以多方参考网上的资料，并精简优化文字叙述。
+
+注：标题以“角色名｜概括性描述”的形式来写。人物简介和点评，可以穿插着写；关于人物内核，尽量使用能达成共识的描述，比如小米的平凡坚韧。夸一夸云霄的亮点，包括但不限于【情感】、【演技】、【唱功】、【技法(如水袖)】、【对角色的理解】。
+
+
