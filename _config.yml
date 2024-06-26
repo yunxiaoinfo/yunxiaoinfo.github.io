@@ -34,9 +34,16 @@ authors:
       bio:            "期待你的加入！"
     
     third:
-      name:           招募中
-      weibo:          https://weibo.com/u/5535273154
+      name:           童仔
+      weibo:          https://weibo.com/u/1315056863
       avatar:         assets/images/author_img/avatar3.jpg
+      duty:           文字和编辑
+      bio:            "期待你的加入！"
+    
+    fourth:
+      name:           长矛
+      weibo:          https://weibo.com/u/6248609464
+      avatar:         assets/images/author_img/avatar4.jpg
       duty:           文字和编辑
       bio:            "期待你的加入！"
  
