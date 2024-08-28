@@ -16,4 +16,4 @@ image: assets/images/starring/qiantangli.jpg
 “以善相拥，平凡不凡”，是方小米这个人物的基调。李云霄说:“塑造方小米这个人物让我收获了很多，不仅仅只是打破戏曲原有的程式表演去塑造一个现代的人物，更多的是在这个过程中，回归到人最初的一种本质的状态。与角色的每一次碰撞，都是我自我心灵的一次净化。每一次的表演，也是我关于生命的意义的一次新的思考。”这种自我心灵的净化，使得方小米在舞台上的形象真实、精准、感人。她在唱腔上保留了吕派特色，音色清亮，运腔委婉，与表演没有割裂之感；在人物经历迷茫后重拾信心的过程中，通过抒发内心的大段唱腔，演绎得层次分明。
 
 
-<p><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=112987822096973&bvid=BV1FdpmenEkG&cid=500001654654194&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe></p>
+<!-- <p><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=112987822096973&bvid=BV1FdpmenEkG&cid=500001654654194&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe></p> -->
