@@ -19,4 +19,4 @@ image: assets/images/starring/qiantangli.jpg
 
 
 > 内容来源；
-> 艺评“钱塘里” | 戴平：越剧《钱塘里》:“戏保人、人保戏”的叠加效应
+> [艺评“钱塘里” | 戴平：越剧《钱塘里》:“戏保人、人保戏”的叠加效应](https://mp.weixin.qq.com/s/ZIcJUiyTX5zmmHn50SNMTQ)
