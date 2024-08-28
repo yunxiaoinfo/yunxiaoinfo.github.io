@@ -18,5 +18,4 @@ image: assets/images/starring/qiantangli.jpg
 <!-- <p><iframe src="//player.bilibili.com/player.html?isOutside=true&aid=112987822096973&bvid=BV1FdpmenEkG&cid=500001654654194&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe></p> -->
 
 
-> 内容来源；
-> [艺评“钱塘里” | 戴平：越剧《钱塘里》:“戏保人、人保戏”的叠加效应](https://mp.weixin.qq.com/s/ZIcJUiyTX5zmmHn50SNMTQ)
+[^1] [艺评“钱塘里” | 戴平：越剧《钱塘里》:“戏保人、人保戏”的叠加效应](https://mp.weixin.qq.com/s/ZIcJUiyTX5zmmHn50SNMTQ)
