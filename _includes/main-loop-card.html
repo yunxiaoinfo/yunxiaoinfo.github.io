@@ -18,10 +18,11 @@
 	</small> -->
 </div>
 {% if post.image %}
-	<div class="col-md-8 pr-0 align-self-center">
+	<div class="col-md-8 pr-2 align-self-center">
 	<a href="{{site.baseurl}}{{post.url}}">
 	<img class="rounded" src="{% if post.image contains "://" %}{{ post.image }}{% else %}{{ site.baseurl }}/{{ post.image }}{% endif %}" alt="{{ post.title }}">
 	</a>
 	</div>
 {% endif %}
 </div>
+
