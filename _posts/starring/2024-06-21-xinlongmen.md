@@ -6,7 +6,7 @@ author: 仰卧起坐
 image: assets/images/starring/xinlongmen.jpg
 ---
 
-该剧
+该剧改编自同名经典武侠电影，将“环境式”驻演模式引入到越剧这一传统戏曲领域。
 
 ---
 

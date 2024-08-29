@@ -6,7 +6,7 @@ author: 仰卧起坐
 image: assets/images/starring/liangzhu.jpg
 ---
 
-该剧
+该剧源自民间传说梁山伯与祝英台，为越剧的代表剧目之一。
 
 ---
 
