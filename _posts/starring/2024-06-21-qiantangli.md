@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "《钱塘里》 <br /> 饰 方小米"
+title: "《钱塘里》饰方小米"
 category: [starring]
 author: 十七画女, 戴平
 editor: 仰卧起坐
