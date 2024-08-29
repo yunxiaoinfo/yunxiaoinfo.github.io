@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "《五女拜寿》 <br /> 饰 翠云"
+title: "《五女拜寿》饰翠云"
 category: [starring]
 author: 仰卧起坐
 image: assets/images/starring/wunvbaishou.jpg
