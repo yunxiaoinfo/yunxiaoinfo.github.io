@@ -10,11 +10,11 @@ image: assets/images/starring/liangzhu.jpg
 
 ---
 
-#### <font color="#007D52">剧情简介</font>
+#### <font color="#5FB37C">剧情简介</font>
 待定
 
 
-#### <font color="#007D52">祝英台｜描述待定</font>
+#### <font color="#5FB37C">祝英台｜描述待定</font>
 待定
 
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "《陈三两》饰陈三两/李素萍"
+title: "《陈三两》饰李素萍/陈三两"
 category: [starring]
 author: 仰卧起坐
 image: assets/images/starring/chensanliang.jpg
