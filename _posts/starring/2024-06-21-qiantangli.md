@@ -24,7 +24,10 @@ image: assets/images/starring/qiantangli.jpg
 
 ---
 <small>
+<p>
 主要内容来源:   
 1. 《钱塘里》场刊    
 2. [艺评“钱塘里” | 戴平：越剧《钱塘里》:“戏保人、人保戏”的叠加效应](https://mp.weixin.qq.com/s/ZIcJUiyTX5zmmHn50SNMTQ)
+</p>
 </small>
+
