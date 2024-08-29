@@ -8,6 +8,7 @@ image: assets/images/starring/qiantangli.jpg
 ---
 
 该剧是浙江小百花越剧团建团以来的首部现实题材作品。
+---
 
 #### <font color="#0065A9">剧情简介</font>
 一个晚高峰，外地来钱塘的打工者方小米骑电瓶车把钱塘中老年模特队员金月芳撞成重伤。将伤者送医却又逃回家的方小米内心纠结挣扎，一夜无眠，不顾家人反对决然给孩子断奶，回医院担责。
@@ -24,10 +25,8 @@ image: assets/images/starring/qiantangli.jpg
 
 ---
 <small>
-<p>
-主要内容来源:   
-1. 《钱塘里》场刊    
+主要内容来源:<br />
+1. 《钱塘里》场刊<br />
 2. [艺评“钱塘里” | 戴平：越剧《钱塘里》:“戏保人、人保戏”的叠加效应](https://mp.weixin.qq.com/s/ZIcJUiyTX5zmmHn50SNMTQ)
-</p>
 </small>
 
