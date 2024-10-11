@@ -8,11 +8,25 @@ permalink: "/walk-on.html"
   <div class="row justify-content-center">
       <div class="col-md-12">
       <h4 class="font-weight-bold spanborder text-danger">龙套角色</h4>
-          
       {% for post in site.categories.walk-on %}
       {% if post.title != null %}
         {% if group == null or group == post.group %}
-          {% include main-loop-card.html %}
+        <div class="row gap-y listrecent listrecent listauthor">
+          {% for opera in post.operas %}
+              <div class="col-lg-4 mb-4">
+                  <div class="p-4 border rounded">
+                  <div class="d-flex align-items-center">
+                  <img alt="{{ author[1].name }}" src="{{site.baseurl}}/{{ author[1].avatar }}" class="rounded-circle" height="80" width="80">
+                  <a class="ml-3" target="_blank" href="{{ author[1].weibo }}">
+                  <h4 class="text-dark mt-0 mb-0"> {{ opera[1].title }} </h4>
+                  <small class="d-inline-block mt-1 font-weight-normal">({{author[1].role}})</small>
+                  </a>
+                  </div>
+                  <div class="excerpt">{{ autoperahor[1].desc }}</div>
+              </div>
+        </div>
+        {% endfor %}
+        </div>
         {% endif %}
       {% endif %}
       {% endfor %}
