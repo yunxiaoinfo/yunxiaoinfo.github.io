@@ -14,19 +14,16 @@ permalink: "/walk-on.html"
         <div class="row gap-y listrecent listrecent listauthor">
           {% for opera in post.operas %}
               <div class="col-lg-4 mb-4">
-                  <!-- <div class="p-4 border rounded"> -->
-                  <div>
-                  <div class="maxthumb">
+                  <div class="p-0 border rounded">
                   <!-- <img alt="{{ opera[1].title }}" src="{{site.baseurl}}/{{ opera[1].image }}" class="rounded-circle" height="80" width="80"> -->
                   <img alt="{{ opera[1].title }}" src="{{site.baseurl}}/{{ opera[1].image }}">
-                  </div>
                   <!-- <a class="ml-3" target="_blank" href="{{ opera[1].weibo }}"> -->
                   <h4 class="text-dark mt-2 mb-0"> {{ opera[1].title }} 饰 {{opera[1].role}}</h4>
                   <!-- </a> -->
                   <div class="excerpt">{{ opera[1].desc }}</div>
+                  </div>
               </div>
-        </div>
-        {% endfor %}
+          {% endfor %}
         </div>
         {% endif %}
       {% endif %}
